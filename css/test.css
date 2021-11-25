@@ -1,0 +1,147 @@
+#body0 {
+    background-color: #261201;
+    font-family: "Lucida Console", monospace;
+}
+#body1 {
+    background-color: #592B02;
+    font-family: Helvetica, sans-serif;
+}
+#body2 {
+    background-color: #A67A46;
+    font-family: Helvetica, sans-serif;
+}
+#body3 {
+    background-color: #595142;
+    font-family: Helvetica, sans-serif;
+}
+#hoved {
+    width: 90%;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: white;
+    border: 1px solid #d45b12;
+}
+#hoved1 {
+    width: 90%;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: white;
+    border: 1px solid #ffffff;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #A67A46;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+img {
+    width: 800px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+nav {
+    float: left;
+    width: 30%;
+    height: 300px;
+    background: white;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+#nav1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+}
+
+#nav1 li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#nav1 li a:hover {
+    background-color: #595142;
+    color: white;
+}
+
+article1 {
+    float: right;
+    padding: 20px;
+    width: 80%;
+    background-color: white;
+    height: 300px;
+}
+
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #A67A46;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+table {
+    border-collapse: collapse;
+    border-bottom: 2px solid #3f4259;
+}
+th, td {
+    border: 1px solid #f6f5f4;
+    padding: 8px;
+}
+thead > tr {
+    background-color: #3f4259;
+    color: #f6f7fa;
+}
+tbody > tr:nth-child(odd) {
+    background-color: #f6f7fa;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: Georgia, serif;
+}
+#hoved {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #cccccc;
+}
+h1 {
+    font-family: Arial, sans-serif;
+}
+#gronn {
+    background-color: #CCE1DC;
+    border: 1px solid #006A52;
+}
+#rod {
+    background-color: #FEE0E3;
+    border: 1px solid #FC6371;
+}
+
+
+
+
+
+
+
+
